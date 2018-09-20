@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='x-ua-compatible' content='ie=edge'>
+        <title>Sponsor me</title>
+        <meta name='description' content=''>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href='https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css' rel='stylesheet'>
+    </head>
+    <body class='h-screen font-sans'>
+        <article class='container mx-auto px-4 font-serif text-grey-darkest leading-normal'>
+            <header class='max-w-lg mx-auto my-8 text-center'>
+                <h1 class='font-large'>Sponsor me</h1>
+            </header>
+        <main class='md:w-1/2 md:mx-auto'>
+                <form class="w-full leading-loose">
+                    <div>
+                        Hi, <label for="user_fn">my name</label> is <input type="text" name="user_fn" id="user_fn" value="Janet from Ohio" class="bg-grey-lighter py-2 px-2 text-grey-darker focus:bg-yellow-lighter">
+                        and I want to sponsor your
+                        <select class="bg-grey-lighter py-2 px-2 text-grey-darker focus:bg-yellow-lighter">
+                            <option>Livestreams</option>
+                            <option>Podcast</option>
+                            <option>Newsletter</option>
+                        </select>.
+                    </div>
+                    <div>
+                        Every time you mention <label for="user_url">my website</label> , <input type="text" name="user_url" id="user_url" value="http://yoursite.com" class="bg-grey-lighter py-2 px-2 text-grey-darker focus:bg-yellow-lighter">, I will pay you $<input type="text" name="sponsor_amount" id="sponsor_amount" value="$100" class="bg-grey-lighter py-2 px-2 text-grey-darker focus:bg-yellow-lighter">, up to <input type="text" name="total_amount" id="total_amount" value="$5,000" class="bg-grey-lighter py-2 px-2 text-grey-darker focus:bg-yellow-lighter">
+                    </div>
+                    <button class="shadow bg-green hover:bg-green-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 my-8 rounded block" type="button">Sponsor</button>
+                </form>
+            </main>
+        </article>
+    </body>
+</html>
